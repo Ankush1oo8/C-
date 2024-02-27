@@ -1,0 +1,18 @@
+loop in replacement
+
+defn: function calling itself
+ why?: to solve problem which are recursive in nature
+  
+what are function call?
+int product(int a  , int b){
+    return a*b;
+}
+when we are writing "product(a,b)" and a,b are any number by writing this we are calling product function
+
+fuction calling itself?
+void fun(int n){
+    if(n==0){
+        cout<<"hello";
+    }
+    fun(n-1);
+}
